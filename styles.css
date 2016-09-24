@@ -1,0 +1,69 @@
+@charset "utf-8";
+aside {
+	width: 20%;
+	height: 200px;
+	float: right;
+	background-color: #4B8A5C;
+	margin-right: 3%;
+	margin-left: 2%;
+	margin-bottom: 10px;
+	margin-top: 2%;
+	text-align: center;
+}
+aside img  {
+	top: 25%;
+	left: auto;
+	position: relative;
+}
+
+.container {
+	width: 100%;
+	background-color: #8B8B8B;
+}
+footer {
+	background-color: #BB921A;
+	width: 100%;
+	clear: both;
+	height: 35px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+}
+
+
+article {
+	width: 70%;
+	height: 800px;
+	background-color: #7E4647;
+	float: left;
+	margin-left: 3%;
+	margin-right: 2%;
+	margin-bottom: 10px;
+}
+header {
+	width: 27%;
+	height: 55px;
+	background-color: #8F8E8E;
+	float: left;
+	background-image: url(assets/SerifLogoGreen.png);
+	background-repeat: no-repeat;
+	background-size: 43% auto;
+	background-position: 5px 5px;
+	margin-left: 3%;
+}
+nav {
+	float: right;
+	width: 67%;
+	height: 55px;
+	margin-right: 3%;
+	background-color: #8F8E8E;
+}
+nav ul li {
+	display: inline;
+	padding-left: 6%;
+	padding-right: 6%;
+}
